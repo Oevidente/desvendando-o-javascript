@@ -4,7 +4,7 @@
 
 **02 - No arquivo criado, adicione uma estrutura de um documento HTML5 de linguagem português do Brasil**
 
-**03 - Altere o título do documento para "EX 001"**
+**03 - Altere o título do documento para "EX 002"**
 
 **04 - Adicione um título de nível de importância 1 no corpo da página**
 
