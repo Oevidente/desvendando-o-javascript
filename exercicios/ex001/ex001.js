@@ -8,71 +8,75 @@
 
 // 01 - Declare uma variável com o identificador 'var1' sem inicializá-la. (sem atribuir nenhum valor)
 // 01.1 - Qual o tipo deste valor? Lembre sempre de usar o DevTools do Chrome para fazer seus testes.
-// resposta 01.1 -> 
+// resposta 01.1 -> undefined
 // DICA: use o operador typeof para fazer seus testes no DevTools
+let var1;
+undefined
 
-
-// 02 - Declare uma variável com o identificador 'num' e atribua um valor do tipo Number.
-
+// 02 - Declare uma variável com o identificador 'num' e atribua um valor do tipo number.
+ let num = 6;
 
 // 03 - Declare uma variável com o identificador 'soma' e atribua a ela a soma dos valores 6(number) e 7(number).
-
-
+//13
+let soma = 6 + 7;
 // 04 - Declare uma variável com o identificador 'sub' e atribua a ela a subtração dos valores 4(number) e 9(number).
-
+let sub = 4 - 9;
 
 // 05 - Declare uma variável com o identificador 'saudacao' e atribua a ela o valor Olá (string).
-
+let saudacao = 'Olá';
 
 // 06 - Declare uma variável com o identificador 'nome' e atribua a ela o valor [Seu Nome](string).
-
+let nome = 'Seu Nome';
 
 // 07 - Declare uma variável com o identificador 'concat' e atribua a ela a concatenação entre as variáveis saudacao e nome com um valor
 //string de vírgula e espaço entre elas.
-
+let concat = saudacao + ', ' + nome;
 
 // 08 - Declare uma variável com o identificador 'mult' e atribua a ela a multiplicação dos valores 3(number) e 5(number).
-
+let mult = 3 * 5;
 
 // 09 - Declare uma variável com o identificador 'div' e atribua a ela a divisão dos valores 50(number) e 10(number).
-
+let div = 50 / 10;
 
 // 10 - Declare uma variável com o identificador 'resto1' e atribua a ela o resto da divisão entre os valores 10(number) e 2(number).
-
+let resto1 = 10 % 2;
 
 // 11 - Declare uma variável com o identificador 'incremento' e atribua a ela o valor 5(number).
 // Na linha abaixo use o operador de incremento nesta mesma variável
-
+let incremento = 5;
+incremento++;
 
 // 12 - Declare uma variável com o identificador 'decremento' e atribua a ela o valor 100(number).
 // Na linha abaixo use o operador de decremento nesta mesma variável.
-
+let decremento = 100;
+decremento--;
 
 // 13 - Declare uma variável com o identificador 'logic1' e atribua a ela o valor VERDADEIRO(boolean) em Javascript.
-
+let logic1 = true;
 
 // 14 - Declare uma variável com o identificador 'logic2' e atribua a ela o valor FALSO(boolean) em Javascript.
-
+logic2 = false;
 
 // 15 - Declare uma variável com o identificador 'logic3' que receba uma operação booleana que compare se 
 // os valores das variáveis soma e sub são iguais.
+let logic3 = soma === sub;
 
 
 // 16 - Declare uma variável com o identificador 'logic4' que receba uma operação booleana que compare se a variável
 // mult e o valor numérico 15 são iguais.
-
+let logic4 = 15 === mult;
 
 // 17 - Diminua -3 do valor atual da variável 'soma' já declarada, usando o operador de atribuição de subtração "-="
-
+soma -= 3;
 
 // 18 - Adicione +8 do valor atual da variável 'sub' já declarada, usando o operador de atribuição de soma "+="
-
+sub += 8;
 
 // 19 - Divida por 2 o valor atual da variável 'mult' já declarada, usando o operador de atribuição de divisão "/="
-
+mult /= 2;
 
 // 20 - Multiplique por 3 o valor atual da variável 'sub' já declarada, usando o operador de atribuição de multiplicação "*="
-
+sub *= 3;
 
 
 /* 
