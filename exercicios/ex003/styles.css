@@ -1,0 +1,29 @@
+body {
+    font: normal 15pt arial;
+    text-align: center;
+    background: lightblue;
+}
+
+section {
+    margin: auto;
+    padding-top: 300pt;
+}
+
+input {
+    border-radius: 15pt;
+    margin: 0 auto;
+    max-width: 80px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
+    background-color: white;
+    border: 0px
+}
+
+#res {
+    font-size: 25px;
+    padding-top: 15pt;
+}
+
+#foot {
+    font: italic 15pt Arial;
+}
