@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>EX 004</title>
+</head>
+
+<body>
+    <section>
+        <h1>Strings</h1>
+        <p>Escreva seu <strong>Nome</strong>, user do <strong>GitHub</strong>, e seu <strong>País de origem</strong>, respectivamente:</p>
+        <input type="text" name="txtn1" id="txtn1">
+        <input type="text" name="txtxn2" id="txtn2">
+        <input type="text" name="txtxn3" id="txtn3">
+        <input type="button" value="Enviar" onclick="retornar()">
+        <div id="res">Digite os dados para ver o resultado.</div>
+    </section>
+    <footer>
+        <p id="foot">&copy; Oevidente</p>
+    </footer>
+    <script>
+        function retornar() {
+            let res = document.getElementById("res")
+            let tn1 = document.getElementById("txtn1")
+            let tn2 = document.querySelector("input#txtn2")
+            let tn3 = document.querySelector("input#txtn3")
+            let nome = tn1.value //pega o valor que tá dentro da caixa de texto tn1
+            let user = tn2.value
+            let pais = tn3.value
+            let tamanhoNome = nome.length
+
+            res.innerHTML = (`Olá <strong>${nome}</strong>, seu nome tem ${tamanhoNome} letras.
+            <br>Seu username do github é ${user.toLowerCase()}</br>
+            Você mora no ${pais.toUpperCase()}`)
+            console.log(res.innerHTML);
+        }
+    </script>
+</body>
+
+</html>
